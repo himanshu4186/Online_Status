@@ -52,7 +52,7 @@ if(isset($_SESSION["user"]))
       }  
       else  
       {  
-           header('location:login.php');  
+           header('location:index.php');  
       }  
 ?>
 	<header>
@@ -76,7 +76,8 @@ if(isset($_SESSION["user"]))
 	</header>
 	<br>
 	<br>
-	
+	<script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/loggedin.php';}"></iframe>
  <div class="container-fluid">
   <div class="row">
     <div class="col-md-2">

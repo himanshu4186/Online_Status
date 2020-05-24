@@ -8,7 +8,7 @@ if(mysqli_num_rows($result) == 0)
 {
 	session_start();
 	$_SESSION['error'] = '<p style="color:black;">Invalid username or password</p>';
-  	header('Location: login.php');
+  	header('Location: index.php');
 }
 else
 {

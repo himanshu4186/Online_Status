@@ -52,7 +52,7 @@ if(isset($_SESSION["user"]))
       }  
       else  
       {  
-           header('location:login.php');  
+           header('location:index.php');  
       }  
 ?>
 	<header>

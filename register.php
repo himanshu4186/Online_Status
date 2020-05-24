@@ -16,13 +16,13 @@ mysqli_query($connec,$ins) or die(mysqli_error($connec));
 
 session_start();
 	$_SESSION['reg'] = '<p style="color:black;">Registered succesfully...Login now!!<p>';
-	header('location: login.php');
+	header('location: index.php');
 }
 	else
 {
 session_start();
 	$_SESSION['reg_error'] = '<p style="color:black;">Invalid email!!</p>';
-	header('location: login.php');
+	header('location: index.php');
 }
 
 }
@@ -30,6 +30,6 @@ else
 {
 	session_start();
 	$_SESSION['reg_error'] = '<p style="color:black;">Email registered already!!</p>';
-	header('location: login.php');
+	header('location: index.php');
 }
 ?>
