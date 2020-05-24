@@ -23,3 +23,5 @@ the history page update the timestamps each time a user login or logs out from t
 
 after login the table to the left shows all the current users that are onlie at that moment.
 
+NOTE::: TIME ZONE IN PROJECT IS SET TO SERVER SIDE LOCATION, SO IT MAY VARY ACCORDING TO IST.
+
