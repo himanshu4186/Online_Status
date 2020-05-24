@@ -1,0 +1,30 @@
+body {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header-top {
+  background: #000000; }
+  @media (max-width: 991px) {
+    .header-top {
+      display: none; } }
+  .header-top a {
+    color: #fff; }
+  .header-top ul li {
+    display: inline-block;
+    margin-left: 15px; }
+  .header-top .header-top-right {
+    text-align: right; }
+    .header-top .header-top-right a {
+      padding: 0 20px;
+      height: 40px;
+      display: inline-block;
+      line-height: 40px;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+      background: transparent;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
